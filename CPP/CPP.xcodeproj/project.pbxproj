@@ -18,6 +18,8 @@
 		28BEB5BE2C0A082800A22827 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28BEB5BD2C0A082800A22827 /* main.cpp */; };
 		28BEB5C92C0A210600A22827 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28BEB5C82C0A210600A22827 /* main.cpp */; };
 		28BEB5D42C0A21D800A22827 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28BEB5D32C0A21D800A22827 /* main.cpp */; };
+		28BEB5E12C0A576900A22827 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28BEB5E02C0A576900A22827 /* main.cpp */; };
+		28BEB5EC2C0A57A600A22827 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28BEB5EB2C0A57A600A22827 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -120,10 +122,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		28BEB5DC2C0A576900A22827 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		28BEB5E72C0A57A600A22827 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		28BEB5602C09F64B00A22827 /* CPP Basic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CPP Basic"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28BEB5602C09F64B00A22827 /* CPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BEB5632C09F64B00A22827 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		28BEB56E2C09F65D00A22827 /* Variables */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Variables; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BEB5702C09F65D00A22827 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -145,6 +165,10 @@
 		28BEB5C82C0A210600A22827 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		28BEB5D12C0A21D800A22827 /* Enumeration */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Enumeration; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BEB5D32C0A21D800A22827 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		28BEB5DE2C0A576900A22827 /* MemoryManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MemoryManager; sourceTree = BUILT_PRODUCTS_DIR; };
+		28BEB5E02C0A576900A22827 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		28BEB5E92C0A57A600A22827 /* SmartMemoryManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SmartMemoryManager; sourceTree = BUILT_PRODUCTS_DIR; };
+		28BEB5EB2C0A57A600A22827 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +249,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		28BEB5DB2C0A576900A22827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28BEB5E62C0A57A600A22827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -242,6 +280,8 @@
 				28BEB5BC2C0A082800A22827 /* Pointer */,
 				28BEB5C72C0A210600A22827 /* Structures */,
 				28BEB5D22C0A21D800A22827 /* Enumeration */,
+				28BEB5DF2C0A576900A22827 /* MemoryManager */,
+				28BEB5EA2C0A57A600A22827 /* SmartMemoryManager */,
 				28BEB5612C09F64B00A22827 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -249,7 +289,7 @@
 		28BEB5612C09F64B00A22827 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28BEB5602C09F64B00A22827 /* CPP Basic */,
+				28BEB5602C09F64B00A22827 /* CPP */,
 				28BEB56E2C09F65D00A22827 /* Variables */,
 				28BEB5792C09F70300A22827 /* Control Structures */,
 				28BEB5842C09FA3000A22827 /* Functions */,
@@ -260,6 +300,8 @@
 				28BEB5BB2C0A082800A22827 /* Pointer */,
 				28BEB5C62C0A210600A22827 /* Structures */,
 				28BEB5D12C0A21D800A22827 /* Enumeration */,
+				28BEB5DE2C0A576900A22827 /* MemoryManager */,
+				28BEB5E92C0A57A600A22827 /* SmartMemoryManager */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -352,12 +394,28 @@
 			path = Enumeration;
 			sourceTree = "<group>";
 		};
+		28BEB5DF2C0A576900A22827 /* MemoryManager */ = {
+			isa = PBXGroup;
+			children = (
+				28BEB5E02C0A576900A22827 /* main.cpp */,
+			);
+			path = MemoryManager;
+			sourceTree = "<group>";
+		};
+		28BEB5EA2C0A57A600A22827 /* SmartMemoryManager */ = {
+			isa = PBXGroup;
+			children = (
+				28BEB5EB2C0A57A600A22827 /* main.cpp */,
+			);
+			path = SmartMemoryManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28BEB55F2C09F64B00A22827 /* CPP Basic */ = {
+		28BEB55F2C09F64B00A22827 /* CPP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28BEB5672C09F64B00A22827 /* Build configuration list for PBXNativeTarget "CPP Basic" */;
+			buildConfigurationList = 28BEB5672C09F64B00A22827 /* Build configuration list for PBXNativeTarget "CPP" */;
 			buildPhases = (
 				28BEB55C2C09F64B00A22827 /* Sources */,
 				28BEB55D2C09F64B00A22827 /* Frameworks */,
@@ -367,9 +425,9 @@
 			);
 			dependencies = (
 			);
-			name = "CPP Basic";
+			name = CPP;
 			productName = "CPP Basic";
-			productReference = 28BEB5602C09F64B00A22827 /* CPP Basic */;
+			productReference = 28BEB5602C09F64B00A22827 /* CPP */;
 			productType = "com.apple.product-type.tool";
 		};
 		28BEB56D2C09F65D00A22827 /* Variables */ = {
@@ -542,6 +600,40 @@
 			productReference = 28BEB5D12C0A21D800A22827 /* Enumeration */;
 			productType = "com.apple.product-type.tool";
 		};
+		28BEB5DD2C0A576900A22827 /* MemoryManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28BEB5E22C0A576900A22827 /* Build configuration list for PBXNativeTarget "MemoryManager" */;
+			buildPhases = (
+				28BEB5DA2C0A576900A22827 /* Sources */,
+				28BEB5DB2C0A576900A22827 /* Frameworks */,
+				28BEB5DC2C0A576900A22827 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoryManager;
+			productName = MemoryManager;
+			productReference = 28BEB5DE2C0A576900A22827 /* MemoryManager */;
+			productType = "com.apple.product-type.tool";
+		};
+		28BEB5E82C0A57A600A22827 /* SmartMemoryManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28BEB5ED2C0A57A600A22827 /* Build configuration list for PBXNativeTarget "SmartMemoryManager" */;
+			buildPhases = (
+				28BEB5E52C0A57A600A22827 /* Sources */,
+				28BEB5E62C0A57A600A22827 /* Frameworks */,
+				28BEB5E72C0A57A600A22827 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartMemoryManager;
+			productName = SmartMemoryManager;
+			productReference = 28BEB5E92C0A57A600A22827 /* SmartMemoryManager */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -584,9 +676,15 @@
 					28BEB5D02C0A21D800A22827 = {
 						CreatedOnToolsVersion = 15.4;
 					};
+					28BEB5DD2C0A576900A22827 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					28BEB5E82C0A57A600A22827 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 				};
 			};
-			buildConfigurationList = 28BEB55B2C09F64B00A22827 /* Build configuration list for PBXProject "CPP Basic" */;
+			buildConfigurationList = 28BEB55B2C09F64B00A22827 /* Build configuration list for PBXProject "CPP" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -599,7 +697,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28BEB55F2C09F64B00A22827 /* CPP Basic */,
+				28BEB55F2C09F64B00A22827 /* CPP */,
 				28BEB56D2C09F65D00A22827 /* Variables */,
 				28BEB5782C09F70300A22827 /* Control Structures */,
 				28BEB5832C09FA3000A22827 /* Functions */,
@@ -610,6 +708,8 @@
 				28BEB5BA2C0A082800A22827 /* Pointer */,
 				28BEB5C52C0A210600A22827 /* Structures */,
 				28BEB5D02C0A21D800A22827 /* Enumeration */,
+				28BEB5DD2C0A576900A22827 /* MemoryManager */,
+				28BEB5E82C0A57A600A22827 /* SmartMemoryManager */,
 			);
 		};
 /* End PBXProject section */
@@ -700,6 +800,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				28BEB5D42C0A21D800A22827 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28BEB5DA2C0A576900A22827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BEB5E12C0A576900A22827 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28BEB5E52C0A57A600A22827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BEB5EC2C0A57A600A22827 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1041,10 +1157,50 @@
 			};
 			name = Release;
 		};
+		28BEB5E32C0A576900A22827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SVGXRR5RRA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28BEB5E42C0A576900A22827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SVGXRR5RRA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28BEB5EE2C0A57A600A22827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SVGXRR5RRA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28BEB5EF2C0A57A600A22827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SVGXRR5RRA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28BEB55B2C09F64B00A22827 /* Build configuration list for PBXProject "CPP Basic" */ = {
+		28BEB55B2C09F64B00A22827 /* Build configuration list for PBXProject "CPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28BEB5652C09F64B00A22827 /* Debug */,
@@ -1053,7 +1209,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28BEB5672C09F64B00A22827 /* Build configuration list for PBXNativeTarget "CPP Basic" */ = {
+		28BEB5672C09F64B00A22827 /* Build configuration list for PBXNativeTarget "CPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28BEB5682C09F64B00A22827 /* Debug */,
@@ -1148,6 +1304,24 @@
 			buildConfigurations = (
 				28BEB5D62C0A21D800A22827 /* Debug */,
 				28BEB5D72C0A21D800A22827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28BEB5E22C0A576900A22827 /* Build configuration list for PBXNativeTarget "MemoryManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BEB5E32C0A576900A22827 /* Debug */,
+				28BEB5E42C0A576900A22827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28BEB5ED2C0A57A600A22827 /* Build configuration list for PBXNativeTarget "SmartMemoryManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BEB5EE2C0A57A600A22827 /* Debug */,
+				28BEB5EF2C0A57A600A22827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
